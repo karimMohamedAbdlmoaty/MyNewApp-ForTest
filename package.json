@@ -9,7 +9,8 @@
     "test-ci": "TEAMCITY_VERSION=enablereport npm test",
     "e2e": "detox build && detox test",
     "e2e-shutdown": "fbsimctl shutdown",
-    "test:watch": "npm test -- --watchAll"
+    "test:watch": "npm test -- --watchAll",
+    "ios-clean": "rm -rf ios/build"
   },
   "jest": {
     "preset": "react-native",
