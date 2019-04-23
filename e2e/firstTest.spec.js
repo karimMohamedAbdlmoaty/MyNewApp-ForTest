@@ -6,8 +6,8 @@ describe('Example', () => {
   });
 
   it('detox has worked', async () => {
-    await element(by.id("for-detox")).tap();
-    await expect(element(by.id("for-detox"))).toHaveText('ForDetoxTest 19999');
+    await element(by.id('for-detox')).tap();
+    await expect(element(by.id('for-detox'))).toHaveText('ForDetoxTest 19999');
   });
 
 
@@ -21,8 +21,8 @@ describe('Example', () => {
   });
 
   it('detox has worked', async () => {
-    await element(by.id("for-detox")).tap();
-    await expect(element(by.id("for-detox"))).toHaveText('ForDetoxTest 19999');
+    await element(by.id('for-detox')).tap();
+    await expect(element(by.id('for-detox'))).toHaveText('ForDetoxTest 19999');
   });
 
 
